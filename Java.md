@@ -15,3 +15,11 @@
 - D. Tomcat为每个APP创建一个Loader，里面保存着此WebApp的ClassLoader。需要加载WebApp下的类时，就取出ClassLoader来使用
 
 答案：ABCD
+
+## 下面哪些说法是正确的？（ ）
+- A. java语言是真正的面向对象的语言，任何代码都是类的一部分。
+- B. 运行java程序必须需要java运行环境的支持，例如需要java虚拟机JVM。
+- C. 使用Visual J++在windows下开发的所有java程序可以不加修改的在Unix下运行，这是java程序“一次编写，到处运行”的特点决定的。
+- D. java语言的类加载器可以实现从互联网上加载java程序。
+
+答案：BCD
