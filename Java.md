@@ -23,3 +23,15 @@
 - D. java语言的类加载器可以实现从互联网上加载java程序。
 
 答案：BCD
+
+## 下面哪个方法是 public void  example(){...} 的重载方法？ ( )
+- A. public void Example( int m){...}
+- B. public int example(){...}
+- C. public void example2(){...}
+- D. public int example ( int m, float f){...}
+
+答案：D
+
+解析：方法重载要求函数名完全相同，参数列表不同（数量，类型或位置均可）；返回值类型、方法修饰符不影响。
+
+
