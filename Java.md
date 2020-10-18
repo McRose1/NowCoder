@@ -71,3 +71,22 @@
 
 解析：private 修饰的不能调用
 
+## 下面关于abstract关键字描述错误的是（）
+- A. abstract关键字可以修饰类或方法
+- B. final类的方法都不能是abstract，因为final类不能有子类
+- C. abstract类不能实例化
+- D. abstract类的子类必须实现其超类的所有abstract方法
+
+答案：D
+
+解析：对于abstract类的子类来说有两种途径，一种是实现其超类的所有abstract方法；或者是子类也声明为abstract类，将全部实现抽象方法的责任交给它的子类。
+
+## 新建一个流对象，下面哪个选项的代码是错误的？
+- A. new BufferedWriter(new FileWriter(“a.txt”));
+- B. new BufferedReader(new FileInputStream(“a.dat”));
+- C. new GZIPOutputStream(new FileOutputStream(“a.zip”));
+- D. new ObjectInputStream(new FileInputStream(“a.dat”));
+
+答案：B
+
+解析：Reader只能用FileReader进行实例化
